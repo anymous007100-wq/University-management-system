@@ -1,0 +1,345 @@
+{
+  "users": [
+    {
+      "id": "STU001",
+      "password": "student123",
+      "type": "student",
+      "role": "student",
+      "name": "Alice Johnson",
+      "email": "alice.johnson@university.edu",
+      "program": "Computer Science",
+      "year": "3rd Year",
+      "gpa": "3.8"
+    },
+    {
+      "id": "ADM001",
+      "password": "admin123",
+      "type": "admin",
+      "role": "admin",
+      "name": "Jane Smith",
+      "email": "jane.smith@university.edu",
+      "department": "System Administration"
+    }
+  ],
+  "students": [
+    {
+      "id": "STU001",
+      "name": "Alice Johnson",
+      "department": "Computer Science",
+      "cgpa": 3.8,
+      "email": "alice.johnson@university.edu",
+      "phone": "+1-555-0101"
+    },
+    {
+      "id": "STU002",
+      "name": "Bob Smith",
+      "department": "Electrical Engineering",
+      "cgpa": 3.5,
+      "email": "bob.smith@university.edu",
+      "phone": "+1-555-0102"
+    },
+    {
+      "id": "STU003",
+      "name": "Carol Davis",
+      "department": "Business Administration",
+      "cgpa": 3.9,
+      "email": "carol.davis@university.edu",
+      "phone": "+1-555-0103"
+    },
+    {
+      "id": "STU004",
+      "name": "David Wilson",
+      "department": "Mechanical Engineering",
+      "cgpa": 3.2,
+      "email": "david.wilson@university.edu",
+      "phone": "+1-555-0104"
+    },
+    {
+      "id": "STU005",
+      "name": "Emma Brown",
+      "department": "Computer Science",
+      "cgpa": 3.7,
+      "email": "emma.brown@university.edu",
+      "phone": "+1-555-0105"
+    },
+    {
+      "id": "STU006",
+      "name": "Frank Miller",
+      "department": "Mathematics",
+      "cgpa": 3.6,
+      "email": "frank.miller@university.edu",
+      "phone": "+1-555-0106"
+    },
+    {
+      "id": "STU007",
+      "name": "Grace Taylor",
+      "department": "Physics",
+      "cgpa": 3.4,
+      "email": "grace.taylor@university.edu",
+      "phone": "+1-555-0107"
+    },
+    {
+      "id": "STU008",
+      "name": "Henry Anderson",
+      "department": "Chemistry",
+      "cgpa": 3.3,
+      "email": "henry.anderson@university.edu",
+      "phone": "+1-555-0108"
+    }
+  ],
+  "courses": [
+    {
+      "code": "CS101",
+      "title": "Introduction to Programming",
+      "credits": 3,
+      "department": "Computer Science",
+      "instructor": "Dr. Robert Chen"
+    },
+    {
+      "code": "CS201",
+      "title": "Data Structures",
+      "credits": 4,
+      "department": "Computer Science",
+      "instructor": "Dr. Sarah Johnson"
+    },
+    {
+      "code": "EE101",
+      "title": "Circuit Analysis",
+      "credits": 3,
+      "department": "Electrical Engineering",
+      "instructor": "Dr. Michael Brown"
+    },
+    {
+      "code": "ME101",
+      "title": "Engineering Mechanics",
+      "credits": 3,
+      "department": "Mechanical Engineering",
+      "instructor": "Dr. James Wilson"
+    },
+    {
+      "code": "BA101",
+      "title": "Principles of Management",
+      "credits": 3,
+      "department": "Business Administration",
+      "instructor": "Dr. Patricia Davis"
+    },
+    {
+      "code": "MATH101",
+      "title": "Calculus I",
+      "credits": 4,
+      "department": "Mathematics",
+      "instructor": "Dr. Thomas Martinez"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "FAC001",
+      "name": "Dr. Robert Chen",
+      "department": "Computer Science",
+      "title": "Professor",
+      "email": "robert.chen@university.edu"
+    },
+    {
+      "id": "FAC002",
+      "name": "Dr. Sarah Johnson",
+      "department": "Computer Science",
+      "title": "Associate Professor",
+      "email": "sarah.johnson@university.edu"
+    },
+    {
+      "id": "FAC003",
+      "name": "Dr. Michael Brown",
+      "department": "Electrical Engineering",
+      "title": "Professor",
+      "email": "michael.brown@university.edu"
+    },
+    {
+      "id": "FAC004",
+      "name": "Dr. James Wilson",
+      "department": "Mechanical Engineering",
+      "title": "Assistant Professor",
+      "email": "james.wilson@university.edu"
+    },
+    {
+      "id": "FAC005",
+      "name": "Dr. Patricia Davis",
+      "department": "Business Administration",
+      "title": "Professor",
+      "email": "patricia.davis@university.edu"
+    },
+    {
+      "id": "FAC006",
+      "name": "Dr. Thomas Martinez",
+      "department": "Mathematics",
+      "title": "Associate Professor",
+      "email": "thomas.martinez@university.edu"
+    }
+  ],
+  "notices": [
+    {
+      "title": "Midterm Examination Schedule",
+      "date": "2024-04-20",
+      "content": "Midterm examinations will begin from next week. Please check your schedules."
+    },
+    {
+      "title": "Registration Deadline",
+      "date": "2024-04-15",
+      "content": "Last date to register for summer courses is April 30th."
+    }
+  ],
+  "academicRecords": [
+    {
+      "semester": "Fall 2023",
+      "courses": [
+        {
+          "code": "CS101",
+          "title": "Introduction to Programming",
+          "credits": 3,
+          "grade": "A"
+        },
+        {
+          "code": "CS201",
+          "title": "Data Structures",
+          "credits": 4,
+          "grade": "A-"
+        },
+        {
+          "code": "MATH101",
+          "title": "Calculus I",
+          "credits": 4,
+          "grade": "B+"
+        }
+      ],
+      "gpa": 3.8,
+      "creditsEarned": 11
+    },
+    {
+      "semester": "Spring 2024",
+      "courses": [
+        {
+          "code": "CS301",
+          "title": "Algorithms",
+          "credits": 3,
+          "grade": "A"
+        },
+        {
+          "code": "CS202",
+          "title": "Database Systems",
+          "credits": 3,
+          "grade": "A"
+        },
+        {
+          "code": "MATH201",
+          "title": "Calculus II",
+          "credits": 4,
+          "grade": "A-"
+        }
+      ],
+      "gpa": 3.9,
+      "creditsEarned": 10
+    }
+  ],
+  "fees": [
+    {
+      "semester": "Fall 2023",
+      "tuitionFee": 5000,
+      "labFee": 500,
+      "libraryFee": 200,
+      "totalFee": 5700,
+      "paidAmount": 5700,
+      "dueAmount": 0,
+      "status": "Paid",
+      "paymentDate": "2023-08-15"
+    },
+    {
+      "semester": "Spring 2024",
+      "tuitionFee": 5000,
+      "labFee": 500,
+      "libraryFee": 200,
+      "totalFee": 5700,
+      "paidAmount": 2850,
+      "dueAmount": 2850,
+      "status": "Partial",
+      "paymentDate": "2024-01-15"
+    }
+  ],
+  "results": [
+    {
+      "studentId": "STU001",
+      "studentName": "Alice Johnson",
+      "semester": "Fall 2023",
+      "courses": [
+        {
+          "code": "CS101",
+          "title": "Introduction to Programming",
+          "credits": 3,
+          "grade": "A",
+          "gradePoint": 4.0
+        },
+        {
+          "code": "CS201",
+          "title": "Data Structures",
+          "credits": 4,
+          "grade": "A-",
+          "gradePoint": 3.7
+        },
+        {
+          "code": "MATH101",
+          "title": "Calculus I",
+          "credits": 4,
+          "grade": "B+",
+          "gradePoint": 3.3
+        }
+      ],
+      "gpa": 3.8,
+      "status": "Approved"
+    },
+    {
+      "studentId": "STU002",
+      "studentName": "Bob Smith",
+      "semester": "Fall 2023",
+      "courses": [
+        {
+          "code": "EE101",
+          "title": "Circuit Analysis",
+          "credits": 3,
+          "grade": "B",
+          "gradePoint": 3.0
+        },
+        {
+          "code": "ME101",
+          "title": "Engineering Mechanics",
+          "credits": 3,
+          "grade": "B+",
+          "gradePoint": 3.3
+        }
+      ],
+      "gpa": 3.15,
+      "status": "Pending"
+    }
+  ],
+  "financial": [
+    {
+      "semester": "Fall 2023",
+      "totalRevenue": 285000,
+      "tuitionRevenue": 250000,
+      "otherFees": 35000,
+      "totalExpenses": 180000,
+      "facultySalaries": 120000,
+      "operationalCosts": 60000,
+      "netIncome": 105000,
+      "collectionRate": 95
+    },
+    {
+      "semester": "Spring 2024",
+      "totalRevenue": 285000,
+      "tuitionRevenue": 250000,
+      "otherFees": 35000,
+      "totalExpenses": 180000,
+      "facultySalaries": 120000,
+      "operationalCosts": 60000,
+      "netIncome": 105000,
+      "collectionRate": 92
+    }
+  ]
+}

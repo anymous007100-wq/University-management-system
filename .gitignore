@@ -1,0 +1,9 @@
+# Dependencies (If you use a local live-server or npm later)
+node_modules/
+
+# OS generated files (Good to hide so they don't clutter your GitHub)
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
